@@ -15,6 +15,7 @@
   height: 100vh;
 }
 .container-control {
+  margin-top: 100px;
   background-image: url(/assets/images/html-color-codes-color-tutorials-hero.jpg);
   background-size: cover;
   padding: 30px;
@@ -36,4 +37,40 @@
     align-items: center;
     gap: 10px;
   }
+}
+.result-fullname {
+  background-image: url(/assets/images/html-color-codes-color-tutorials-hero.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 150px;
+  gap: 30px;
+  display: flex;
+}
+.result-age {
+  background-image: url(/assets/images/html-color-codes-color-tutorials-hero.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 150px;
+  gap: 30px;
+  display: flex;
+}
+.container-results {
+  &-result {
+    display: flex;
+    color: white;
+  }
+}
+#main2 {
+  background-image: url(/assets/images/work-space-3840x2160.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
 }
