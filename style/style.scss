@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  background-image: url(/assets/images/work-space-3840x2160.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-control {
+  background-image: url(/assets/images/html-color-codes-color-tutorials-hero.jpg);
+  background-size: cover;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    &-input {
+      width: 100px;
+    }
+  }
+  &-buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+  }
+}
